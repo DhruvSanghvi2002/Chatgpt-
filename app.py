@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 import streamlit as st
-openai.api_key = "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"
+openai.api_key = "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"
 
 start_sequence = "\nAI: "
 restart_sequence = "\nHuman: "
