@@ -1,7 +1,9 @@
 import streamlit as st
 import openai
-import streamlit as st
-openai.api_key = "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"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+openai.api_key = os.getenv("openai.api_key")
 
 start_sequence = "\nAI: "
 restart_sequence = "\nHuman: "
